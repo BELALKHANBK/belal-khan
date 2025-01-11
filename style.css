@@ -353,7 +353,13 @@ nav {
     margin-left: 1em;
     font-size: 32px;
     font-weight: bold;
-    color: #393636;
+    color: hsl(0, 4%, 53%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.div1:hover {
+    background: #ff00f2;
 }
 
 .div2 {
@@ -365,7 +371,13 @@ nav {
     border-radius: 7px;
     font-size: 32px;
     font-weight: bold;
-    color: #393636;
+    color: hsl(0, 4%, 53%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.div2:hover {
+    background: rgb(209, 31, 25);
 }
 
 .div3 {
@@ -377,7 +389,13 @@ nav {
     border-radius: 7px;
     font-size: 32px;
     font-weight: bold;
-    color: #393636;
+    color: hsl(0, 4%, 53%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.div3:hover {
+    background: rgb(4, 0, 255);
 }
 
 .div4 {
@@ -387,6 +405,14 @@ nav {
     padding: 25px 25px;
     font-size: 30px;
     border-radius: 7px;
+    font-weight: bold;
+    color: hsl(0, 4%, 53%);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.div4:hover {
+    background: springgreen;
 }
 
 .other {
@@ -407,6 +433,13 @@ nav {
     padding: 12px;
     border-radius: 12px;
     background-color: #006A50;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-don:hover {
+    background: blue;
 }
 
 
@@ -419,6 +452,7 @@ nav {
     padding: 30px;
     margin-top: 3em;
     border-radius: 12px;
+    margin-bottom: 40px;
 }
 
 .section8-h {
@@ -491,4 +525,31 @@ nav {
 
 .form-box button:hover {
     background: #4769d8;
+}
+
+
+/*footer */
+
+.footer {
+    background-color: white;
+    width: 100%;
+}
+
+.ba {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer-img {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+hr {
+    max-width: 1040px;
+    margin: 0 auto;
+    color: #c7c4c4;
 }
