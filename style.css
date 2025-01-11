@@ -8,17 +8,14 @@ body {
 }
 
 nav {
+    max-width: 1040px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 15px;
 }
 
-.nav-tatile {
-    margin-left: 5em;
-}
-
 .btn-primary {
-    margin-right: 12em;
     width: 7em;
     height: 36px;
     cursor: pointer;
