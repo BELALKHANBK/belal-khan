@@ -267,8 +267,9 @@ nav {
 /*optional   sction 6*/
 
 .new {
+    max-width: 1040px;
+    margin: 0 auto;
     font-size: 3em;
-    margin-left: 5.5em;
     margin-top: 2em;
 }
 
@@ -313,9 +314,17 @@ nav {
     margin-top: 12px;
     width: 7em;
     height: 2em;
+    outline: none;
     font-weight: bold;
     background-color: #006A50;
     border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.section6-btn:hover {
+    background: salmon;
 }
 
 
@@ -517,6 +526,7 @@ nav {
     padding: 15px 20px;
     font-size: 20px;
     border: none;
+    font-weight: bold;
     border-radius: 5px;
     background: #006A50;
     cursor: pointer;
